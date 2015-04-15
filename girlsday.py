@@ -17,3 +17,8 @@ def moveDown(frame, delta):
     
 def moveUp(frame, delta):
     clear()
+    i = 1
+    for l in frame.splitlines():
+        if i > delta:
+            print l
+        i += 1

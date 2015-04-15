@@ -54,4 +54,17 @@ while i < 1000:
     moveDown(sun3, 3)
     sleep(0.1)
     
+    clear()
+    moveUp(sun3, 1)
+    sleep(0.1)
+
+    clear()
+    moveUp(sun3, 2)
+    sleep(0.1)
+
+    clear()
+    moveUp(sun3, 3)
+    sleep(0.1)
+
+    
     i = i + 100
