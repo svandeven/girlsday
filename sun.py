@@ -48,9 +48,9 @@ X      X   XX XX    XX XX    X      X
    X X     X XXXXXXXXXXX X        X X   
   X X     X X    X X    X X         X X  
   xx     X X     X X     X X         xx  
-        X X      X X      X X        
-       X X       X X       X X       
-       xx        xXx        xx       
+        X X    X X      X X        
+       X X    X X       X X       
+            xXx        xx       
 """
 sun3 = """
        xx        xXx        xx       

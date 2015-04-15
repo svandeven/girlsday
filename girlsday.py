@@ -9,6 +9,10 @@ def clear():
 def sleep(sec):
     time.sleep(sec)
     
+def show(frame):
+    clear()
+    print frame
+    
 def moveDown(frame, delta):
     clear()
     for l in range (0, delta):

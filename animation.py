@@ -11,83 +11,85 @@ from sun import *
 
 i = 0
 while i < 1000:
-    clear()
-    print minion
+
+    show(minion)
     sleep(0.1)
 
-    clear()
-    print minion2
+    show(minion2)
     sleep(0.1)
 
-    clear()
-    print minion
+    show(minion)
     sleep(0.1)
 
-    clear()
-    print minion3
+    show(minion3)
     sleep(0.1)
     i = i + 100
 
 i = 0
-while i < 1000:
-    clear()
-    print sun1
+while i < 5:
+    i = i + 1
+    
+    show(sun1)
     sleep(0.1)
 
-    clear()
-    print sun2
+    show(sun2)
     sleep(0.1)
     
-    clear()
-    print sun3
+    show(sun3)
     sleep(0.1)
     
-    clear()
     moveDown(sun3, 1)
     sleep(0.1)
-    
-    clear()
+
     moveDown(sun3, 2)
     sleep(0.1)
-    
-    clear()
+
     moveDown(sun3, 3)
     sleep(0.1)
-    
-    clear()
+
     moveUp(sun1, 1)
     sleep(0.1)
 
-    clear()
     moveUp(sun2, 2)
     sleep(0.1)
 
-    clear()
     moveUp(sun3, 3)
     sleep(0.1)
 
-    clear()
-    moveRight(sun1, 1)
+    moveRight(sun1, 10)
     sleep(0.1)
 
-    clear()
-    moveRight(sun2, 2)
+    moveRight(sun2, 20)
     sleep(0.1)
 
-    clear()
-    moveRight(sun3, 3)
-    sleep(0.1)    
+    moveRight(sun3, 30)
+    sleep(0.1)  
     
-    clear()
+    moveRight(sun3, 40)
+    sleep(0.1)  
+    
+    moveRight(sun3, 50)
+    sleep(0.1)
+    
+    moveRight(sun3, 40)
+    sleep(0.1)
+    
+    moveRight(sun3, 30)
+    sleep(0.1)
+    
+    moveRight(sun2, 20)
+    sleep(0.1)
+    
+    moveRight(sun1, 10)
+    sleep(0.1)
+    
     moveLeft(sun1, 1)
     sleep(0.1)
 
-    clear()
     moveLeft(sun2, 2)
     sleep(0.1)
-
-    clear()
+    
     moveLeft(sun3, 3)
     sleep(0.1)
     
-    i = i + 100
+
