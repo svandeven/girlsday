@@ -3,7 +3,7 @@
 
 import subprocess as sp
 import time
-from girlsday import clear, sleep, moveDown, moveUp
+from girlsday import *
 from minion import *
 from sun import *
 
@@ -66,5 +66,16 @@ while i < 1000:
     moveUp(sun3, 3)
     sleep(0.1)
 
+    clear()
+    moveRight(sun3, 1)
+    sleep(0.1)
+
+    clear()
+    moveRight(sun3, 2)
+    sleep(0.1)
+
+    clear()
+    moveRight(sun3, 3)
+    sleep(0.1)    
     
     i = i + 100

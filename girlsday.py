@@ -22,3 +22,11 @@ def moveUp(frame, delta):
         if i > delta:
             print l
         i += 1
+        
+def moveRight(frame, delta):
+    clear()
+    prefix = ""
+    for i in range(0,delta):
+        prefix += " "
+    for l in frame.splitlines(): 
+        print prefix + l
