@@ -55,11 +55,11 @@ while i < 1000:
     sleep(0.1)
     
     clear()
-    moveUp(sun3, 1)
+    moveUp(sun1, 1)
     sleep(0.1)
 
     clear()
-    moveUp(sun3, 2)
+    moveUp(sun2, 2)
     sleep(0.1)
 
     clear()
@@ -67,15 +67,27 @@ while i < 1000:
     sleep(0.1)
 
     clear()
-    moveRight(sun3, 1)
+    moveRight(sun1, 1)
     sleep(0.1)
 
     clear()
-    moveRight(sun3, 2)
+    moveRight(sun2, 2)
     sleep(0.1)
 
     clear()
     moveRight(sun3, 3)
     sleep(0.1)    
+    
+    clear()
+    moveLeft(sun1, 1)
+    sleep(0.1)
+
+    clear()
+    moveLeft(sun2, 2)
+    sleep(0.1)
+
+    clear()
+    moveLeft(sun3, 3)
+    sleep(0.1)
     
     i = i + 100

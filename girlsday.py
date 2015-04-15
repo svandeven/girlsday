@@ -30,3 +30,8 @@ def moveRight(frame, delta):
         prefix += " "
     for l in frame.splitlines(): 
         print prefix + l
+        
+def moveLeft(frame, delta):
+    clear()
+    for l in frame.splitlines(): 
+        print l[delta-1:]
