@@ -37,20 +37,20 @@ sun2 = """
      X X  XX             XX  X X     
       X XX                 XX X      
        XX   XXX      XXX    XX       
- xxxxxxXX  XXXXX    XXXXX    Xxxxxxx 
-X      X   XX XX    XX XX    X      X
+ xxxxxxXX  XX XX    XX XX    Xxxxxxx 
+X      X   XXXXX    XXXXX    X      X
  xxxxxxX    XXX      XXX     Xxxxxxx 
        X                     X       
-       XX                   X       
-      X XX     x     x      X X      
-     X X  X     XXXXX      XX  X X     
-    X X    XX           XX      X X    
-   X X     X XXXXXXXXXXX X        X X   
-  X X     X X    X X    X X         X X  
-  xx     X X     X X     X X         xx  
-        X X    X X      X X        
-       X X    X X       X X       
-            xXx        xx       
+       XX                    X       
+      X XX     X     X      X X      
+     X X  X    XXXXXXX    XX X X     
+    X X    XX           XX    X X    
+   X X     X XXXXXXXXXXX X     X X   
+  X X     X X    X X    X X     X X  
+  xx     X X     X X     X X     xx  
+        X X      X X      X X        
+       X X       X X       X X       
+       xx        xXx        xx       
 """
 sun3 = """
        xx        xXx        xx       
@@ -62,17 +62,17 @@ sun3 = """
      X X  XX             XX  X X     
       X XX                 XX X      
        XX   XXX      XXX    XX       
- xxxxxxXX  XXXXX    XXXXX    Xxxxxxx 
-X      X   XX XX    XX XX    X      X
+ xxxxxxXX  XX XX    XX XX    Xxxxxxx 
+X      X   XXXXX    XXXXX    X      X
  xxxxxxX    XXX      XXX     Xxxxxxx 
        X                     X       
-       XX       XXXXX        X       
-      X XX     x     x      X X      
-     X X  X     XXXXX      XX  X X     
-    X X    XX           XX      X X    
-   X X     X XXXXXXXXXXX X        X X   
-  X X     X X    X X    X X         X X  
-  xx     X X     X X     X X         xx  
+       XX      XXXXXXX       X       
+      X XX     X     X      X X      
+     X X  X    XXXXXXX    XX X X     
+    X X    XX           XX    X X    
+   X X     X XXXXXXXXXXX X     X X   
+  X X     X X    X X    X X     X X  
+  xx     X X     X X     X X     xx  
         X X      X X      X X        
        X X       X X       X X       
        xx        xXx        xx       
